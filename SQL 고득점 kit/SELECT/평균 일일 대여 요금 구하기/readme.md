@@ -5,12 +5,38 @@
 `CAR_RENTAL_COMPANY_CAR` 테이블은 자동차 대여 회사의 차량 정보를 담고
 있으며 구성은 다음과 같습니다:
 
-  Column name   Type           Nullable
-  ------------- -------------- ----------
-  CAR_ID        INTEGER        FALSE
-  CAR_TYPE      VARCHAR(255)   FALSE
-  DAILY_FEE     INTEGER        FALSE
-  OPTIONS       VARCHAR(255)   FALSE
+<table>
+  <thead>
+    <tr>
+      <th>Column name</th>
+      <th>Type</th>
+      <th>Nullable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CAR_ID</td>
+      <td>INTEGER</td>
+      <td>FALSE</td>
+    </tr>
+    <tr>
+      <td>CAR_TYPE</td>
+      <td>VARCHAR(255)</td>
+      <td>FALSE</td>
+    </tr>
+    <tr>
+      <td>DAILY_FEE</td>
+      <td>INTEGER</td>
+      <td>FALSE</td>
+    </tr>
+    <tr>
+      <td>OPTIONS</td>
+      <td>VARCHAR(255)</td>
+      <td>FALSE</td>
+    </tr>
+  </tbody>
+</table>
+
 
 -   **CAR_TYPE 종류:** 세단, SUV, 승합차, 트럭, 리무진\
 -   **OPTIONS:** 콤마(`,`)로 구분된 옵션 리스트\
